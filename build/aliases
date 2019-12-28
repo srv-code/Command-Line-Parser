@@ -1,0 +1,2 @@
+alias b='javac -d out src/Tester.java src/util/text/parser/cmdline/CommandLineParser.java'
+alias r='java -cp out Tester'
