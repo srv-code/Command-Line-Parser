@@ -1,6 +1,2 @@
 #!/bin/bash
-
-cd out
-jar -cvfe0 cmdlnparser.jar Tester Tester.class util
-mv -v cmdlnparser.jar ../artifacts
-cd ..
+jar -cvfe0 artifacts/cmdlnparser.jar Tester -C out Tester.class -C out util
